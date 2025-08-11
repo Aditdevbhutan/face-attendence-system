@@ -304,4 +304,9 @@ style.textContent = `
     }
 `;
 
+document.getElementById("portfolioBtn").addEventListener("click", function() {
+    window.open("https://aditport.netlify.app/", "_blank");
+});
+
+
 document.head.appendChild(style);
