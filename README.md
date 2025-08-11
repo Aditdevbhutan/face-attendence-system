@@ -33,18 +33,27 @@ Download the zip file from the <>Code dropdown
 2.Install the prerequisites
 - Python and pip should already be installed
 STEPS
-1.create a python environement 
+2.1create a python environement 
 ```
 cd ~/code/py/face-att/app
 python -m venv .venv
 source .venv/bin/activate
 ```
-2.install the libraries and packages
+2.2install the libraries and packages
 ```
 pip install face_recognition
 
 # and 
 
 pip install opencv-python
+```
+
+3.Running the app 
+- Straight forward and easy
+
+```
+#in the terminal 
+python main.py
+
 ```
 
