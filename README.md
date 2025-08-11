@@ -4,18 +4,30 @@ Automatically mark attendance by recognizing faces using a live webcam.
 
 Core Features:
 
-    Register faces with names (save images to a folder)
+    - Register faces with names (save images to a folder)
 
-    Use a webcam to detect and recognize faces in real-time
+    - Use a webcam to detect and recognize faces in real-time
 
-    When a face is recognized, log the name and timestamp to a CSV or Excel file
+    - When a face is recognized, log the name and timestamp to a CSV or Excel file
 
 Built With:
 
-    Python
+    - Python
 
-    OpenCV (cv2 for camera and face recognition)
+    - OpenCV (cv2 for camera and face recognition)
 
-    face_recognition library for better accuracy (optional)
+    - face_recognition library for better accuracy (optional)
 
-    pandas or openpyxl for saving attendance records
+    - Numpy or openpyxl for saving attendance records
+
+## Installation Guide
+
+1.Clone the project
+```
+git clone https://github.com/Aditdevbhutan/face-attendence-system.git
+```
+OR
+
+Download the zip file from the <>Code dropdown 
+
+2.
